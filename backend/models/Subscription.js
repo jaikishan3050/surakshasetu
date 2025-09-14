@@ -66,3 +66,4 @@ subscriptionSchema.index({ isActive: 1 });
 subscriptionSchema.index({ subscribedAt: -1 });
 
 module.exports = mongoose.model('Subscription', subscriptionSchema);
+

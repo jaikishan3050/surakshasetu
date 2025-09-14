@@ -29,8 +29,7 @@
   ],
   "author": "SurakshaSetu Team",
   "license": "MIT",
-  "dependencies": {
-    "better-sqlite3": "^12.2.0",
-    "sqlite3": "^5.1.7"
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

@@ -77,3 +77,4 @@ communityMemberSchema.index({ volunteerType: 1 });
 communityMemberSchema.index({ joinedAt: -1 });
 
 module.exports = mongoose.model('CommunityMember', communityMemberSchema);
+

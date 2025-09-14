@@ -66,3 +66,4 @@ emergencyReportSchema.index({ type: 1 });
 emergencyReportSchema.index({ severity: 1 });
 
 module.exports = mongoose.model('EmergencyReport', emergencyReportSchema);
+

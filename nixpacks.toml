@@ -1,0 +1,12 @@
+[variables]
+NODE_ENV = "production"
+NPM_CONFIG_PRODUCTION = "false"
+
+[phases.setup]
+nixPkgs = ["nodejs_18", "npm"]
+
+[phases.build]
+cmds = ["cd backend && npm ci"]
+
+[phases.start]
+cmd = "cd backend && npm start"
