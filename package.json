@@ -1,0 +1,36 @@
+{
+  "name": "surakshasetu",
+  "version": "1.0.0",
+  "description": "SurakshaSetu - Disaster Preparedness Platform with Student App and Admin Dashboard",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "start": "cd backend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "disaster-preparedness",
+    "emergency-management",
+    "student-safety",
+    "admin-dashboard"
+  ],
+  "author": "SurakshaSetu Team",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "sqlite3": "^5.1.7"
+  }
+}

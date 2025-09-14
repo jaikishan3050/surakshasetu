@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "ms-vscode.vscode-typescript-next",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-json",
+    "formulahendry.auto-rename-tag",
+    "christian-kohler.path-intellisense",
+    "ms-vscode.vscode-eslint",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode.vscode-node-azure-pack",
+    "mongodb.mongodb-vscode",
+    "rangav.vscode-thunder-client",
+    "ms-vscode.vscode-json5",
+    "usernamehw.errorlens",
+    "gruntfuggly.todo-tree"
+  ]
+}
