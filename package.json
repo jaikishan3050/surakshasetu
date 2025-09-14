@@ -1,21 +1,12 @@
 {
-  "name": "surakshasetu",
+  "name": "surakshasetu-root",
   "version": "1.0.0",
-  "description": "SurakshaSetu - Disaster Preparedness Platform with Student App and Admin Dashboard",
+  "description": "SurakshaSetu - Root package for repository structure",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
-    "dev:backend": "cd backend && npm run dev",
-    "dev:frontend": "cd frontend && npm run dev",
-    "build": "echo 'Backend only - no build needed'",
-    "build:frontend": "cd frontend && npm run build",
-    "build:backend": "cd backend && npm run build",
-    "start": "cd backend && npm start",
-    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.13",
-    "concurrently": "^8.2.2"
+    "build": "echo 'No build required for root package'",
+    "start": "echo 'Use backend/npm start for server'",
+    "postinstall": "echo 'Install backend dependencies with: cd backend && npm install'"
   },
   "keywords": [
     "disaster-preparedness",
